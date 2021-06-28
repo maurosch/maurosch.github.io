@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://maurosch.github.io/</loc>
+    <loc>https://maurosch.github.io/</loc>
     <lastmod>2021-06-20T11:47:09-03:00</lastmod>
   </url><url>
-    <loc>http://maurosch.github.io/blog/</loc>
+    <loc>https://maurosch.github.io/blog/</loc>
     <lastmod>2021-06-20T11:47:09-03:00</lastmod>
   </url><url>
-    <loc>http://maurosch.github.io/blog/guardar-clases-grabadas/</loc>
+    <loc>https://maurosch.github.io/blog/guardar-clases-grabadas/</loc>
     <lastmod>2021-06-20T11:47:09-03:00</lastmod>
   </url><url>
-    <loc>http://maurosch.github.io/about/</loc>
+    <loc>https://maurosch.github.io/about/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://maurosch.github.io/categories/</loc>
+    <loc>https://maurosch.github.io/categories/</loc>
   </url><url>
-    <loc>http://maurosch.github.io/tags/</loc>
+    <loc>https://maurosch.github.io/tags/</loc>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Blog Mauro</title>
-    <link>http://maurosch.github.io/blog/</link>
+    <link>https://maurosch.github.io/blog/</link>
     <description>Recent content in Blogs on Blog Mauro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 20 Jun 2021 11:47:09 -0300</lastBuildDate><atom:link href="http://maurosch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jun 2021 11:47:09 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comprimir Clases Grabadas</title>
-      <link>http://maurosch.github.io/blog/guardar-clases-grabadas/</link>
+      <link>https://maurosch.github.io/blog/guardar-clases-grabadas/</link>
       <pubDate>Sun, 20 Jun 2021 11:47:09 -0300</pubDate>
       
-      <guid>http://maurosch.github.io/blog/guardar-clases-grabadas/</guid>
+      <guid>https://maurosch.github.io/blog/guardar-clases-grabadas/</guid>
       <description>Cuando empezó la cuarentena y pasamos a las clases virtuales no me di cuenta pero también dejé de tomar apuntes. Cuál era el sentido de tomar apuntes si las clases eran grabadas y podemos repetirlas tantas veces como queramos. Está la controversia de si se aprende más (o nos queda más tiempo en la cabeza) escribiendo las cosas o simplemente escuchandolas.
 Ya a partir del secundario tengo el hábito de tener todo ordenado y guardado de los apuntes de las clases por si en el futuro lo necesito de nuevo.</description>
     </item>
