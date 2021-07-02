@@ -34,7 +34,8 @@ Ya a partir del secundario tengo el hábito de tener todo ordenado y guardado de
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://maurosch.github.io/about/</guid>
-      <description>En construccion&amp;hellip;</description>
+      <description>Me llamo Mauro, tengo  años y estoy estudiando ciencias de la computación en la UBA argentina.
+ var age = new Date().getFullYear() - 1999 - 1; if(new Date().getMonth()  9 || (new Date().getMonth() == 9 &amp;&amp; new Date().getDate() == 26)){ age = age+1; } document.getElementById(&#34;age&#34;).innerHTML = age;  </description>
     </item>
     
   </channel>

@@ -66,6 +66,13 @@
                 </li>
                 
                 <li class="nav-item">
+                    <a class="nav-link" href="https://maurosch.github.io/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
                     <a class="nav-link" href="https://github.com/maurosch">
                         
                         GitHub
@@ -91,7 +98,14 @@
                     <h1 class="mx-0 mx-md-4">About</h1>
                     <div class="markdown">
                         
-    <p>En construccion&hellip;</p>
+    <p>Me llamo Mauro, tengo <span id="age"></span> años y estoy estudiando ciencias de la computación en la UBA argentina.</p>
+<script>
+    var age = new Date().getFullYear() - 1999 - 1;   
+    if(new Date().getMonth() > 9 || (new Date().getMonth() == 9 && new Date().getDate() == 26)){
+        age = age+1;
+    }
+    document.getElementById("age").innerHTML = age;
+</script>
 
 
 
