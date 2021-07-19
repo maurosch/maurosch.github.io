@@ -1,7 +1,6 @@
 ---
 title: "Precios de departamentos excesivos"
 date: 2021-07-10T11:47:09-03:00
-author: "Mauro"
 draft: True
 ---
 

@@ -2,7 +2,6 @@
 title: "Comprimir Clases Grabadas"
 description: "Someone's blog"
 date: 2021-06-20T11:47:09-03:00
-author: "Mauro"
 ---
 
 Cuando empezó la cuarentena y pasamos a las clases virtuales no me di cuenta pero también dejé de tomar apuntes. Cuál era el sentido de tomar apuntes si las clases eran grabadas y podemos repetirlas tantas veces como queramos. Está la controversia de si se aprende más (o nos queda más tiempo en la cabeza) escribiendo las cosas o simplemente escuchandolas.

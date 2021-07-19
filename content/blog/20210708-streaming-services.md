@@ -1,7 +1,6 @@
 ---
 title: "Cada vez más servicios de streaming"
 date: 2021-07-08T11:47:09-03:00
-author: "Mauro"
 draft: False
 ---
 

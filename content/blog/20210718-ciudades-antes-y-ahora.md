@@ -1,7 +1,6 @@
 ---
 title: "50 años en ciudades"
 date: 2021-07-18T11:47:09-03:00
-author: "Mauro"
 draft: False
 ---
 

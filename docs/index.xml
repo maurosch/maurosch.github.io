@@ -6,13 +6,51 @@
     <description>Recent content on Blog Mauro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 28 Jun 2021 11:47:09 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 11:47:09 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>50 años en ciudades</title>
+      <link>https://maurosch.github.io/blog/20210718-ciudades-antes-y-ahora/</link>
+      <pubDate>Sun, 18 Jul 2021 11:47:09 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210718-ciudades-antes-y-ahora/</guid>
+      <description>Inspirado por un tweet[3], me decidí buscar como cambiaron las ciudades en tan solo 50 años:
+Hong Kong 1964-2016.
+ Shangai 1990-2010.
+ Shenzhen 1980-2011.
+ Fortaleza Brasil.
+ Toronto Canada 1930-2020.
+ Quatar 1977-2010.
+ Dubai 1990-2020.
+ El mundo construirá una ciudad equivalente a nueva york cada mes durante los próximos 40 años. La producción de acero, hormigón y plástico producen el 31% de los gases de efecto invernadero totales del mundo [1].</description>
+    </item>
+    
+    <item>
+      <title>Cada vez más servicios de streaming</title>
+      <link>https://maurosch.github.io/blog/20210708-streaming-services/</link>
+      <pubDate>Thu, 08 Jul 2021 11:47:09 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210708-streaming-services/</guid>
+      <description>Cada vez nos encontramos con más servicios de streaming de videos.
+ Netflix 2010 Youtube premium 2015 Amazon prime video 2016 Apple TV+ 2019 Disney+ 2019 HBO Max 2020 Paramount+ 2021 Hulu (no disponible en Argentina)  Y otros menos conocidos: CuriosityStream, Discovery+, ESPN+, Crunchyroll.
+Esto en su parte es porque cada vez más personas utilizan menos televisión y prefiere contenido para dirigido a ellos como los que proporcionan estos servicios donde la persona puede seleccionar lo que quiere ver cuando quiera.</description>
+    </item>
+    
+    <item>
+      <title>Cómo funciona el GPS</title>
+      <link>https://maurosch.github.io/blog/20210701-gps/</link>
+      <pubDate>Thu, 01 Jul 2021 11:47:09 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210701-gps/</guid>
+      <description>El GPS (global positioning system) es algo que nunca nos falla, puede no haber 4G, no haber recepción de celular sin embargo el GPS sigue funcionando. ¿Cómo funciona esta maravilla?
+Imaginemos que tenemos un dispositivo que quiere saber donde está. A este le llega una señal de un satélite con la posición del satélite y la hora a la actual envió el mensaje. En nuestro dispositivo también tenemos la hora actual, con lo cual, calculando la diferencia de ambos tiempos podemos saber a que distancia estamos de ese satélite.</description>
+    </item>
+    
     <item>
       <title>Películas con pocos escenarios</title>
-      <link>https://maurosch.github.io/blog/peliculas-con-pocos-escenarios/</link>
+      <link>https://maurosch.github.io/blog/20210628-peliculas-con-pocos-escenarios/</link>
       <pubDate>Mon, 28 Jun 2021 11:47:09 -0300</pubDate>
       
-      <guid>https://maurosch.github.io/blog/peliculas-con-pocos-escenarios/</guid>
+      <guid>https://maurosch.github.io/blog/20210628-peliculas-con-pocos-escenarios/</guid>
       <description>Siempre me maravilló como algunas películas sobresalen del resto. Puede ser por su dirección, por la actuación, por su historia, por su originalidad.
 En este caso dejo las películas que logran contar la historia en muy pocos escenarios (menor a 3) ordenadas por mi gusto:
  The Hateful Eight (2015): Un cazarrecompesas y los fugitivos que capturó se ven atrapados por una tormento de nieve y se tienen que quedar en una casa.</description>
@@ -20,10 +58,10 @@ En este caso dejo las películas que logran contar la historia en muy pocos esce
     
     <item>
       <title>Comprimir Clases Grabadas</title>
-      <link>https://maurosch.github.io/blog/guardar-clases-grabadas/</link>
+      <link>https://maurosch.github.io/blog/20210620-guardar-clases-grabadas/</link>
       <pubDate>Sun, 20 Jun 2021 11:47:09 -0300</pubDate>
       
-      <guid>https://maurosch.github.io/blog/guardar-clases-grabadas/</guid>
+      <guid>https://maurosch.github.io/blog/20210620-guardar-clases-grabadas/</guid>
       <description>Cuando empezó la cuarentena y pasamos a las clases virtuales no me di cuenta pero también dejé de tomar apuntes. Cuál era el sentido de tomar apuntes si las clases eran grabadas y podemos repetirlas tantas veces como queramos. Está la controversia de si se aprende más (o nos queda más tiempo en la cabeza) escribiendo las cosas o simplemente escuchandolas.
 Ya a partir del secundario tengo el hábito de tener todo ordenado y guardado de los apuntes de las clases por si en el futuro lo necesito de nuevo.</description>
     </item>

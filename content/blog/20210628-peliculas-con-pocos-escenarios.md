@@ -2,7 +2,6 @@
 title: "Películas con pocos escenarios"
 description: "Someone's blog"
 date: 2021-06-28T11:47:09-03:00
-author: "Mauro"
 ---
 
 Siempre me maravilló como algunas películas sobresalen del resto. Puede ser por su dirección, por la actuación, por su historia, por su originalidad. 
