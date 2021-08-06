@@ -13,6 +13,8 @@ publishDir = "docs"
 pygmentsstyle = "vs"
 pygmentscodefences = true
 
+googleAnalytics = "G-2J0NNJTX3V"
+
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [params]
@@ -31,11 +33,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
       unsafe = true
 
 [[menu.primary]]
-    name = "Home"
+    name = "Inicio"
     url = "/"
     weight = 1
 [[menu.primary]]
-    name = "About"
+    name = "Sobre Mí"
     url = "/about/"
     weight = 2
 [[menu.primary]]
@@ -43,6 +45,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     url = "https://github.com/maurosch"
     weight = 3
 [[menu.primary]]
-    name = "Subscribe"
+    name = "RSS"
     url = "/index.xml"
     weight = 5

@@ -6,14 +6,41 @@
     <description>Recent content in Blogs on Blog Mauro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 18 Jul 2021 11:47:09 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Aug 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estamos yendo hacia un mundo peor</title>
+      <link>https://maurosch.github.io/blog/20210805-y2k/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210805-y2k/</guid>
+      <description>El problema del año 2000 fue una problema informático donde se creía que los sistemas informáticos iban a dejar de funcionar porque los programas en ese entonces para ahorrar memoria guardaban solamente los últimos dos dígitos del año en vez del año completo.
+En este video retratamos alguien respondiendo su opinión del tema (un poco polémica):
+  Lo cierto es que muchos posibles bugs fueron arreglados antes del 2000 por inversiones de los gobiernos y empresas.</description>
+    </item>
+    
+    <item>
+      <title>Análisis COVID 2021</title>
+      <link>https://maurosch.github.io/blog/20210726-covid-analisis/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210726-covid-analisis/</guid>
+      <description>Utilizando los datos de la ciudad que hacen públicos sobre los casos de covid1 me decidí hacer un análisis que no encontré en el diario la nación2.
+Casos positivos por edad.
+ Fallecimientos por edad.
+ Probabilidad fallecimiento (fallecidos sobre casos positivos covid) por edad.
+
+Si ahora separamos por año:
+Probabilidad fallecimiento por edad separado 2020 y 2021.
+ Posiblemente sea por las vacunas o puede ser que el servicio médico estaba más preparado.</description>
+    </item>
+    
     <item>
       <title>50 años en ciudades</title>
       <link>https://maurosch.github.io/blog/20210718-ciudades-antes-y-ahora/</link>
       <pubDate>Sun, 18 Jul 2021 11:47:09 -0300</pubDate>
       
       <guid>https://maurosch.github.io/blog/20210718-ciudades-antes-y-ahora/</guid>
-      <description>Inspirado por un tweet[3], me decidí buscar como cambiaron las ciudades en tan solo 50 años:
+      <description>Inspirado por un tweet1, me decidí buscar como cambiaron las ciudades en tan solo 50 años:
 Hong Kong 1964-2016.
  Shangai 1990-2010.
  Shenzhen 1980-2011.
@@ -21,7 +48,8 @@ Hong Kong 1964-2016.
  Toronto Canada 1930-2020.
  Quatar 1977-2010.
  Dubai 1990-2020.
- El mundo construirá una ciudad equivalente a nueva york cada mes durante los próximos 40 años. La producción de acero, hormigón y plástico producen el 31% de los gases de efecto invernadero totales del mundo [1].</description>
+ La fuente de las fotos está en el pie de página2.
+Según se prevé, el mundo construirá una ciudad equivalente a nueva york cada mes durante los próximos 40 años. La producción de acero, hormigón y plástico producen el 31% de los gases de efecto invernadero totales del mundo 3.</description>
     </item>
     
     <item>
