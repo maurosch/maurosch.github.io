@@ -12,7 +12,7 @@
             <ul class="nav nav-primary">
                 {{ range .Site.Menus.primary.ByWeight }}
                 <li class="nav-item">
-                    <a class="nav-link{{ if .Identifier }} text-{{ .Identifier }}{{ end }}" href="{{ .URL }}">
+                    <a class="nav-link{{ if .Identifier }} text-{{ .Identifier }}{{ end }}" {{ if .Params.target }}target="_blank"{{ end }} href="{{ .URL }}">
                         {{ .Pre }}
                         {{ .Name }}
                     </a>

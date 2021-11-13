@@ -6,7 +6,57 @@
     <description>Recent content on Blog Mauro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 05 Aug 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚴 Pedaleando por Lujan: Jauregui - San Eladio - Tomás Jofré (60km)</title>
+      <link>https://maurosch.github.io/viajes/2021-10-24-jauregui/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/viajes/2021-10-24-jauregui/</guid>
+      <description>Salimos desde dentro de Jauregui yendo para la colectora, para después meternos en un camino interno de tierra. Luego llegamos a San Eladio, que es una estación de tren, que según wikipedia está usurpada (nosotros vimos gente adentro). Después se toma una calle bastante bien mantenida para llegar a Tomás Jofré. A nosotros nos tocó un día con mucho viento y se hizo bastante pesado en esta parte, porque la calle está muy despejada y se siente mucho el viento.</description>
+    </item>
+    
+    <item>
+      <title>🚴 Pedaleando por el delta: Otamendi (50km)</title>
+      <link>https://maurosch.github.io/viajes/2021-08-29-otamendi/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/viajes/2021-08-29-otamendi/</guid>
+      <description>Nuestro recorrido fue así:
+ Llegar en auto hasta Otamendi y dejar el auto al lado de la vía, en la casa de alguien de ahí la cual presta el patio para estacionar y luego se le paga lo que uno quiere al irse. Luego desde ahí es un recorrido rocoso de ~5km hasta llegar a la primera balsa. Esta balsa cruza el río Paraná. Tiene un costo de 800 pesos (incluye vuelta).</description>
+    </item>
+    
+    <item>
+      <title>Opinión sobre cursos super intensivos de programación</title>
+      <link>https://maurosch.github.io/blog/20210822-cursos-programacion/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210822-cursos-programacion/</guid>
+      <description>En los últimos años empezaron a aparecer cursos de programación que sacan programadores en tiempos cortos como de medio año. Esto vino con la gran demanda de programadores. No solo eso, sino que también es un trabajo que puede realizarse remotamente lo cual ganar en dolares es un gran plus.
+Contenido Pienso en mi caso que estudio una carrera de ciencias de la computación. Cuando entré en la carrera ya sabía programar, ya me habían enseñado en el secundario.</description>
+    </item>
+    
+    <item>
+      <title>🚴 Pedaleando por Carlos Keen (45km)</title>
+      <link>https://maurosch.github.io/viajes/2021-08-17-carlos-keen/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/viajes/2021-08-17-carlos-keen/</guid>
+      <description>Salimos de Carlos Keen rumbo para Villa Ruiz. Es un camino por ruta poco transitada. Al llegar a Villa Ruiz se toma un camino interno de tierra para terminar en Azcuénaga.
+La vuelta la hicimos por el mismo camino. El recorrido es muy abierto, es recomendable no hacerla un día de mucho viento. Ni tampoco un día que llueve.
+Fotos</description>
+    </item>
+    
+    <item>
+      <title>Tiempo en pantalla</title>
+      <link>https://maurosch.github.io/blog/20210816-tiempo-pantalla/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20210816-tiempo-pantalla/</guid>
+      <description>Leyendo el libro El fin de la infancia de Arthur Clarke (un libro escrito en 1953), me encuentro que en libro describen a la civilización futurista donde las personas pasan hasta 3 horas por día viendo una pantalla. Se retrataba como algo exagerado.
+Hoy en día según estadísticas1, el promedio de tiempo en pantalla de celulares es de 3 horas y el de televisión es de 3 horas. También en promedio revisamos el teléfono 57 veces al día.</description>
+    </item>
+    
     <item>
       <title>Estamos yendo hacia un mundo peor</title>
       <link>https://maurosch.github.io/blog/20210805-y2k/</link>
@@ -19,19 +69,15 @@ En este video retratamos alguien respondiendo su opinión del tema (un poco pol�
     </item>
     
     <item>
-      <title>Análisis COVID 2021</title>
+      <title>Análisis casos covid caba 2021</title>
       <link>https://maurosch.github.io/blog/20210726-covid-analisis/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 -0300</pubDate>
       
       <guid>https://maurosch.github.io/blog/20210726-covid-analisis/</guid>
-      <description>Utilizando los datos de la ciudad que hacen públicos sobre los casos de covid1 me decidí hacer un análisis que no encontré en el diario la nación2.
-Casos positivos por edad.
- Fallecimientos por edad.
- Probabilidad fallecimiento (fallecidos sobre casos positivos covid) por edad.
-
-Si ahora separamos por año:
-Probabilidad fallecimiento por edad separado 2020 y 2021.
- Posiblemente sea por las vacunas o puede ser que el servicio médico estaba más preparado.</description>
+      <description>Utilizando los datos públicos de la ciudad sobre los casos de covid1, me decidí hacer un análisis que no estaba contemplado en los gráficos del diario la nación2.
+Más que nada me interesaba la probabilidad de fallecimiento dada la edad. Porque se dice que tiene un porcentaje de 3% de fallecimientos. Pero es bastante variable según la edad. Si vemos los casos por edad:
+ Casos positivos por edad.
+ Y ahora los fallecimientos por edad:</description>
     </item>
     
     <item>
@@ -41,15 +87,15 @@ Probabilidad fallecimiento por edad separado 2020 y 2021.
       
       <guid>https://maurosch.github.io/blog/20210718-ciudades-antes-y-ahora/</guid>
       <description>Inspirado por un tweet1, me decidí buscar como cambiaron las ciudades en tan solo 50 años:
-Hong Kong 1964-2016.
- Shangai 1990-2010.
- Shenzhen 1980-2011.
- Fortaleza Brasil.
- Toronto Canada 1930-2020.
- Quatar 1977-2010.
- Dubai 1990-2020.
+ Hong Kong 1964-2016.
+  Shangai 1990-2010.
+  Shenzhen 1980-2011.
+  Fortaleza Brasil.
+  Toronto Canada 1930-2020.
+  Quatar 1977-2010.
+  Dubai 1990-2020.
  La fuente de las fotos está en el pie de página2.
-Según se prevé, el mundo construirá una ciudad equivalente a nueva york cada mes durante los próximos 40 años. La producción de acero, hormigón y plástico producen el 31% de los gases de efecto invernadero totales del mundo 3.</description>
+Según se prevé, el mundo construirá una ciudad equivalente a nueva york cada mes durante los próximos 40 años.</description>
     </item>
     
     <item>
@@ -82,16 +128,6 @@ Imaginemos que tenemos un dispositivo que quiere saber donde está. A este le ll
       <description>Siempre me maravilló como algunas películas sobresalen del resto. Puede ser por su dirección, por la actuación, por su historia, por su originalidad.
 En este caso dejo las películas que logran contar la historia en muy pocos escenarios (menor a 3) ordenadas por mi gusto:
  The Hateful Eight (2015): Un cazarrecompesas y los fugitivos que capturó se ven atrapados por una tormento de nieve y se tienen que quedar en una casa.</description>
-    </item>
-    
-    <item>
-      <title>Comprimir Clases Grabadas</title>
-      <link>https://maurosch.github.io/blog/20210620-guardar-clases-grabadas/</link>
-      <pubDate>Sun, 20 Jun 2021 11:47:09 -0300</pubDate>
-      
-      <guid>https://maurosch.github.io/blog/20210620-guardar-clases-grabadas/</guid>
-      <description>Cuando empezó la cuarentena y pasamos a las clases virtuales no me di cuenta pero también dejé de tomar apuntes. Cuál era el sentido de tomar apuntes si las clases eran grabadas y podemos repetirlas tantas veces como queramos. Está la controversia de si se aprende más (o nos queda más tiempo en la cabeza) escribiendo las cosas o simplemente escuchandolas.
-Ya a partir del secundario tengo el hábito de tener todo ordenado y guardado de los apuntes de las clases por si en el futuro lo necesito de nuevo.</description>
     </item>
     
     <item>

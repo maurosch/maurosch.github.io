@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://maurosch.github.io/</loc>
-    <lastmod>2021-08-05T00:00:00-03:00</lastmod>
+    <lastmod>2021-10-24T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://maurosch.github.io/viajes/</loc>
+    <lastmod>2021-10-24T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://maurosch.github.io/viajes/2021-10-24-jauregui/</loc>
+    <lastmod>2021-10-24T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://maurosch.github.io/viajes/2021-08-29-otamendi/</loc>
+    <lastmod>2021-08-29T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://maurosch.github.io/blog/</loc>
-    <lastmod>2021-08-05T00:00:00-03:00</lastmod>
+    <lastmod>2021-08-22T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://maurosch.github.io/blog/20210822-cursos-programacion/</loc>
+    <lastmod>2021-08-22T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://maurosch.github.io/viajes/2021-08-17-carlos-keen/</loc>
+    <lastmod>2021-08-17T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://maurosch.github.io/blog/20210816-tiempo-pantalla/</loc>
+    <lastmod>2021-08-16T00:00:00-03:00</lastmod>
   </url><url>
     <loc>https://maurosch.github.io/blog/20210805-y2k/</loc>
     <lastmod>2021-08-05T00:00:00-03:00</lastmod>
@@ -25,9 +43,6 @@
   </url><url>
     <loc>https://maurosch.github.io/blog/20210628-peliculas-con-pocos-escenarios/</loc>
     <lastmod>2021-06-28T11:47:09-03:00</lastmod>
-  </url><url>
-    <loc>https://maurosch.github.io/blog/20210620-guardar-clases-grabadas/</loc>
-    <lastmod>2021-06-20T11:47:09-03:00</lastmod>
   </url><url>
     <loc>https://maurosch.github.io/about/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>

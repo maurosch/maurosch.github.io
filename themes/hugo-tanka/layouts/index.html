@@ -8,9 +8,11 @@
 
                 <div class="mx-0 mx-md-4 posts">
                     {{ range .Data.Pages.GroupByDate "2006" "desc"}}
-                    {{ range sort .Pages "Date" "desc" }}
-                    {{ partial "list" . }}
-                    {{ end }}
+                        {{ range sort .Pages "Date" "desc" }}
+                            {{ if eq .Section "blog" }}
+                                {{ partial "list" . }}
+                            {{ end }}
+                        {{ end }}
                     {{ end }}
                 </div>
 

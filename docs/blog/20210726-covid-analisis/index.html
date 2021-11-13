@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Análisis COVID 2021 - Blog Mauro </title>
+    <title> Análisis casos covid caba 2021 - Blog Mauro </title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="referrer" content="no-referrer">
@@ -13,13 +13,13 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://maurosch.github.io/blog/20210726-covid-analisis/" />
-    <meta property="og:title" content="Análisis COVID 2021" />
+    <meta property="og:title" content="Análisis casos covid caba 2021" />
     <meta property="og:image" content="https://maurosch.github.io/" />
     <meta property="og:description" content="" />
 
     <meta name="twitter:card" content="summary_large_image" />
     
-    <meta name="twitter:title" content="Análisis COVID 2021" />
+    <meta name="twitter:title" content="Análisis casos covid caba 2021" />
     <meta name="twitter:description" content="" />
     <meta name="twitter:image" content="https://maurosch.github.io/" />
 
@@ -59,28 +59,28 @@
             <ul class="nav nav-primary">
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://maurosch.github.io/">
+                    <a class="nav-link"  href="https://maurosch.github.io/">
                         
-                        Inicio
+                        Blog
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://maurosch.github.io/about/">
+                    <a class="nav-link"  href="https://maurosch.github.io/viajes/">
                         
-                        Sobre Mí
+                        Viajes
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/maurosch">
+                    <a class="nav-link" target="_blank" href="https://github.com/maurosch">
                         
                         GitHub
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://maurosch.github.io/index.xml">
+                    <a class="nav-link" target="_blank" href="https://maurosch.github.io/index.xml">
                         
                         RSS
                     </a>
@@ -95,7 +95,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-12 col-lg-8">
-                <h1 class="mx-0 mx-md-4 blog-post-title">Análisis COVID 2021</h1>
+                <h1 class="mx-0 mx-md-4 blog-post-title">Análisis casos covid caba 2021</h1>
 
                 <div class="mb-md-4 meta">
                     
@@ -107,7 +107,7 @@
                     </span>
 
                     <span class="reading-time middot">
-                        1 min read
+                        1 min lectura
                     </span>
 
                     <div class="d-none d-md-inline tags">
@@ -119,29 +119,81 @@
 
                 <div class="markdown blog-post-content">
                     
-    <p>Utilizando los datos de la ciudad que hacen públicos sobre los casos de covid<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> me decidí hacer un análisis que no encontré en el diario la nación<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
-<p><div class="figure" style="text-align:center; width: 100%;">
-<p><img src="https://maurosch.github.io/images/20210726-covid-analisis/contagiados.svg" alt="Casos positivos por edad."></p>
-<p class="caption">Casos positivos por edad.</p>
+    <p>Utilizando los datos públicos de la ciudad sobre los casos de covid<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, me decidí hacer un análisis que no estaba contemplado en los gráficos del diario la nación<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Más que nada me interesaba la probabilidad de fallecimiento dada la edad. Porque se dice que tiene un porcentaje de 3% de fallecimientos. Pero es bastante variable según la edad.
+Si vemos los casos por edad:</p>
+<div class="figure" style="text-align:center; width: 100%;">
+    <p>
+        <img 
+            src="https://maurosch.github.io/images/20210726-covid-analisis/contagiados.svg" 
+            
+                
+                    alt="Casos positivos por edad."
+                
+            
+        >
+    </p>
+    <p class="caption">Casos positivos por edad.</p>
 </div>
+<p>Y ahora los fallecimientos por edad:</p>
 <div class="figure" style="text-align:center; width: 100%;">
-<p><img src="https://maurosch.github.io/images/20210726-covid-analisis/fallecimiento.svg" alt="Fallecimientos por edad."></p>
-<p class="caption">Fallecimientos por edad.</p>
+    <p>
+        <img 
+            src="https://maurosch.github.io/images/20210726-covid-analisis/fallecimiento.svg" 
+            
+                
+                    alt="Fallecimientos por edad."
+                
+            
+        >
+    </p>
+    <p class="caption">Fallecimientos por edad.</p>
 </div>
+<p>Notamos que los más jóvenes son mucho más inmunes que los adultos. Entonces sacando la probabilidad de fallecimiento por edad:</p>
 <div class="figure" style="text-align:center; width: 100%;">
-<p><img src="https://maurosch.github.io/images/20210726-covid-analisis/prob-fallecimiento.svg" alt="Probabilidad fallecimiento (fallecidos sobre casos positivos covid) por edad."></p>
-<p class="caption">Probabilidad fallecimiento (fallecidos sobre casos positivos covid) por edad.</p>
-</div></p>
-<p>Si ahora separamos por año:</p>
+    <p>
+        <img 
+            src="https://maurosch.github.io/images/20210726-covid-analisis/prob-fallecimiento.svg" 
+            
+                
+                    alt="Probabilidad fallecimiento (fallecidos sobre casos positivos covid) por edad."
+                
+            
+        >
+    </p>
+    <p class="caption">Probabilidad fallecimiento (fallecidos sobre casos positivos covid) por edad.</p>
+</div>
+<p>Esto nos da un indicio un poco más fuerte del riesgo según la edad.</p>
+<p>Por último veamos si superponemos la probabilidad de fallecimiento de 2020 y 2021:</p>
 <div class="figure" style="text-align:center; width: 100%;">
-<p><img src="https://maurosch.github.io/images/20210726-covid-analisis/prob-fallecimiento-2020-2021.svg" alt="Probabilidad fallecimiento por edad separado 2020 y 2021."></p>
-<p class="caption">Probabilidad fallecimiento por edad separado 2020 y 2021.</p>
+    <p>
+        <img 
+            src="https://maurosch.github.io/images/20210726-covid-analisis/prob-fallecimiento-2020-2021.svg" 
+            
+                
+                    alt="Probabilidad fallecimiento por edad separado 2020 y 2021."
+                
+            
+        >
+    </p>
+    <p class="caption">Probabilidad fallecimiento por edad separado 2020 y 2021.</p>
 </div>
 <p>Posiblemente sea por las vacunas o puede ser que el servicio médico estaba más preparado. Sea cual sea el caso es algo positivo. Notar que la cantidad de casos positivos en 2021 (hasta julio) fue de 3 veces la cantidad de casos positivos en todo el 2020.</p>
 <div class="figure" style="text-align:center; width: 100%;">
-<p><img src="https://maurosch.github.io/images/20210726-covid-analisis/casos-covid-tiempo.png" alt="Casos positivos covid[2]."></p>
-<p class="caption">Casos positivos covid[2].</p>
+    <p>
+        <img 
+            src="https://maurosch.github.io/images/20210726-covid-analisis/casos-covid-tiempo.png" 
+            
+                
+                    alt="Casos positivos covid[2]."
+                
+            
+        >
+    </p>
+    <p class="caption">Casos positivos covid[2].</p>
 </div>
+<p>Para jugar con el notebook con el cuál generé los datos:
+<a href="https://maurosch.github.io/files/20210726-covid-analisis/analisis.ipynb">link<a></p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
