@@ -1,5 +1,5 @@
 ---
-title: "Opinión sobre cursos super intensivos de programación"
+title: "Opinión: cursos intensivos de programación"
 date: 2021-08-22T00:00:00-03:00
 draft: False
 ---

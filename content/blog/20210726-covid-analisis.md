@@ -1,5 +1,5 @@
 ---
-title: "Análisis casos covid caba 2021"
+title: "Análisis casos covid CABA 2021"
 date: 2021-07-26T00:00:00-03:00
 draft: False
 ---
