@@ -1,0 +1,57 @@
+baseURL = "https://maurosch.github.io/"
+languageCode = "es"
+title = "Blog Mauro"
+
+author = "Mauro"
+canonifyurls = true
+theme = "hugo-tanka"
+
+enableEmoji = true
+hasCJKLanguage = false
+publishDir = "docs"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+
+googleAnalytics = "G-2J0NNJTX3V"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[params]
+  sitename = "Blog Mauro"
+  faviconfile = "images/favicon.png"
+  highlightjs = true
+  highlightjslanguages = ["r", "python", "stan"]
+  uselatex = true
+  progressively = false
+  dateform = "02/01/06"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.primary]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+[[menu.primary]]
+    name = "Viajes"
+    url = "/viajes/"
+    weight = 2
+#[[menu.primary]]
+#    name = "Sobre Mí"
+#    url = "/about/"
+#    weight = 3
+[[menu.primary]]
+    name = "GitHub"
+    url = "https://github.com/maurosch"
+    weight = 4
+    [menu.primary.params]
+      target = true
+[[menu.primary]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
+    [menu.primary.params]
+      target = true
