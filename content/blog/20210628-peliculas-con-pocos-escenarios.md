@@ -1,5 +1,5 @@
 ---
-title: "Películas con pocos escenarios"
+title: "Películas con pocos lugares"
 description: "Someone's blog"
 date: 2021-06-28T11:47:09-03:00
 ---
