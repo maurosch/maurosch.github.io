@@ -8,7 +8,7 @@ theme = "hugo-tanka"
 
 enableEmoji = true
 hasCJKLanguage = false
-publishDir = "docs"
+publishDir = "./docs"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
