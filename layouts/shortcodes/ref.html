@@ -1,1 +1,7 @@
-<a href="#referencias">[{{ index .Params 0 }}]</a>
+<p><a href="{{ .Params.href }}" target="_blank">
+    {{ if ( isset .Params "title" )}}
+        {{ .Params.title }}
+    {{ else }}
+    {{.Get "href"}}
+    {{ end }}
+</a></p>

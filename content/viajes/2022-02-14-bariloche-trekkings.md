@@ -1,5 +1,5 @@
 ---
-title: "🥾 Trekkings por Bariloche: 5 refugios - 14 días"
+title: "⛰ Trekkings por Bariloche: 5 refugios - 14 días"
 date: 2022-02-14T00:00:00-03:00
 draft: False
 ---

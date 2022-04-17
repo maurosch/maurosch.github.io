@@ -6,6 +6,7 @@ homepage = "https://github.com/nanxstats/hugo-tanka"
 tags = ["bootstrap", "minimalist", "responsive", "typography"]
 features = ["Blog", "Responsive", "Minimal", "Clean", "Simple", "Minimalist", "Bootstrap", "Fast"]
 min_version = "0.60.0"
+enableInlineShortcodes = true
 
 [author]
   name = "Nan Xiao"
