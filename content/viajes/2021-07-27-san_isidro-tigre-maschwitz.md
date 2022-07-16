@@ -11,9 +11,11 @@ Los tres caminos son muy fáciles de hacer por ser pavimentado y por ser calles 
 Un plus del recorrido es que va cerca del tren, por lo cual si están muy cansados se puede volver en tren con la bici.
 
 
-{{< img src="/images/2021-07-27-san_isidro-tigre-maschwitz/Screen Shot 2022-04-17 at 11.43.18.png" title="Mapa recorrido a Maschwitz" >}}
+{{< img src="/images/2021-07-27-san_isidro-tigre-maschwitz/Screen Shot 2022-04-17 at 11.43.18.png" title="Recorrido a Maschwitz" >}}
 
 {{< ref title="Link wikiloc" href="https://es.wikiloc.com/rutas-cicloturismo/vicente-lopez-maschwitz-vicente-lopez-caminos-distintos-39376557" >}}
+
+{{< map title="Recorrido a Tigre" route="/files/2021-07-27-san_isidro-tigre-maschwitz/tigre.out" >}}
 
 ## Fotos
 
