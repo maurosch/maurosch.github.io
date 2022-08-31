@@ -6,7 +6,7 @@ draft: False
 
 Un trekking que comienza a una hora en auto de Catamarca capital, con unas vistas increíbles pero de una dificultad importante. Con una altura de 4550 metros se impone el cerro Manchao, cuyo nombre significa "lugar de miedo".
 - El recorrido lo empezamos desde las Juntas (1600msnm) aunque se puede comenzar desde el rodeo. Desde ahí se llega en el primer día a las Tinajas.
-- Luego en el segundo día se llega hasta pampa del manchao pasando por primer campo y campo grande. 
+- Luego en el segundo día se llega hasta pampa del manchao pasando por primer campo y campo grande. La última parte (solo una hora) de este recorrida tiene un poco de dificultad, es un poco expuesto y es necesario usar manos para subir algunas rocas. El resto de los días es muy tranquilo en dificultad. 
 - En el tercer día se llega a la cumbre y luego rápidamente bajamos hasta campo grande.
 - El último día se pasa bajando desde campo grande hasta las Juntas que fue desde donde salimos el primer día.
 

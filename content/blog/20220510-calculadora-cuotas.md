@@ -1,5 +1,5 @@
 ---
-title: "¿Cuándo conviene cuotas? Calculadora"
+title: "Calculadora para cuotas"
 date: 2022-05-10T10:20:09-03:00
 draft: false
 ---
