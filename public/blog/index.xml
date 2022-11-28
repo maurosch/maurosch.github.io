@@ -6,7 +6,20 @@
     <description>Recent content in Blogs on Blog Mauro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 11 Feb 2022 15:20:09 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 May 2022 10:20:09 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculadora para cuotas</title>
+      <link>https://maurosch.github.io/blog/20220510-calculadora-cuotas/</link>
+      <pubDate>Tue, 10 May 2022 10:20:09 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20220510-calculadora-cuotas/</guid>
+      <description>Hoy en día con la inflación anual gigante que tenemos (&amp;gt; 50%) siempre hay que ver cuando nos conviene pagar con cuotas, cuando nos conviene transferir directo o cuando pagar sin cuotas.
+Precio Cantidad cuotas Inflación mensual %
+Interés cuotas %
+Calcular 
+ function cuotas(precio, cantidad, porcentajeInflacionMensual, porcentajeIinteresCuota){ inflacionMensual = 1-porcentajeInflacionMensual/100; interesCuota = 1+porcentajeIinteresCuota/100; multFinal = inflacionMensual*interesCuota; return (precio/cantidad)*((1-Math.pow(multFinal,cantidad+1))/(1-multFinal)); } function calcular(){ var p = Number(document.querySelector(&#34;input[name=&#39;precio&#39;]&#34;).value); var c = Number(document.</description>
+    </item>
+    
     <item>
       <title>Análisis: ¿Qué tan privados son los mensajes de Whatsapp/Telegram/Signal?</title>
       <link>https://maurosch.github.io/blog/20220211-privacidad-mensajes-texto/</link>

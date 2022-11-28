@@ -6,7 +6,48 @@
     <description>Recent content on Blog Mauro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://maurosch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚴 Pedaleando por Canuelas (62km)</title>
+      <link>https://maurosch.github.io/viajes/2022-11-20-canuelas/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/viajes/2022-11-20-canuelas/</guid>
+      <description>Saliendo desde el centro de Pilar nos dirigimos hacia Open Door pasando por Manzanares. El camino era de un ripio en bastantes malas condiciones. Luego tomamos la autopista 6, la cual tenía banquina pero con reductores, con lo cual tuvimos que ir muy cerca de los autos que iban muy rápido (y también había camiones) lo cual fue una experiencia fea. Luego tomamos la ruta 34 que había mucho menos tránsito y los autos iban más despacio y el paisaje se torna más abierto y lindo.</description>
+    </item>
+    
+    <item>
+      <title>🚴 Pedaleando por Pilar - Open Door (45km)</title>
+      <link>https://maurosch.github.io/viajes/2022-08-15-open-door/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/viajes/2022-08-15-open-door/</guid>
+      <description>Saliendo desde el centro de Pilar nos dirigimos hacia Open Door pasando por Manzanares. El camino era de un ripio en bastantes malas condiciones. Luego tomamos la autopista 6, la cual tenía banquina pero con reductores, con lo cual tuvimos que ir muy cerca de los autos que iban muy rápido (y también había camiones) lo cual fue una experiencia fea. Luego tomamos la ruta 34 que había mucho menos tránsito y los autos iban más despacio y el paisaje se torna más abierto y lindo.</description>
+    </item>
+    
+    <item>
+      <title>⛰ Trekkings por Catamarca: Cerro Manchao - 4 días</title>
+      <link>https://maurosch.github.io/viajes/2022-06-16-manchao-trekking/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/viajes/2022-06-16-manchao-trekking/</guid>
+      <description>Un trekking que comienza a una hora en auto de Catamarca capital, con unas vistas increíbles pero de una dificultad importante. Con una altura de 4550 metros se impone el cerro Manchao, cuyo nombre significa &amp;ldquo;lugar de miedo&amp;rdquo;.
+ El recorrido lo empezamos desde las Juntas (1600msnm) aunque se puede comenzar desde el rodeo. Desde ahí se llega en el primer día a las Tinajas. Luego en el segundo día se llega hasta pampa del manchao pasando por primer campo y campo grande.</description>
+    </item>
+    
+    <item>
+      <title>Calculadora para cuotas</title>
+      <link>https://maurosch.github.io/blog/20220510-calculadora-cuotas/</link>
+      <pubDate>Tue, 10 May 2022 10:20:09 -0300</pubDate>
+      
+      <guid>https://maurosch.github.io/blog/20220510-calculadora-cuotas/</guid>
+      <description>Hoy en día con la inflación anual gigante que tenemos (&amp;gt; 50%) siempre hay que ver cuando nos conviene pagar con cuotas, cuando nos conviene transferir directo o cuando pagar sin cuotas.
+Precio Cantidad cuotas Inflación mensual %
+Interés cuotas %
+Calcular 
+ function cuotas(precio, cantidad, porcentajeInflacionMensual, porcentajeIinteresCuota){ inflacionMensual = 1-porcentajeInflacionMensual/100; interesCuota = 1+porcentajeIinteresCuota/100; multFinal = inflacionMensual*interesCuota; return (precio/cantidad)*((1-Math.pow(multFinal,cantidad+1))/(1-multFinal)); } function calcular(){ var p = Number(document.querySelector(&#34;input[name=&#39;precio&#39;]&#34;).value); var c = Number(document.</description>
+    </item>
+    
     <item>
       <title>🚴 Pedaleando desde Chascomús a Gándara (50km)</title>
       <link>https://maurosch.github.io/viajes/2022-04-15-gandara/</link>

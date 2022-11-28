@@ -8,6 +8,8 @@ Salimos de Carlos Keen rumbo para Villa Ruiz. Es un camino por ruta poco transit
 
 La vuelta la hicimos por el mismo camino. El recorrido es muy abierto, es recomendable no hacerla un día de mucho viento. Ni tampoco un día que llueve.
 
+Camino muy pintoresco y recomendable. Y en Azcuénaga se come muy bien.
+
 
 ## Fotos
 

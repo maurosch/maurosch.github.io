@@ -266,3 +266,29 @@ hr {
         margin-right: 0;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212529;
+        color: rgb(200, 195, 188);
+    }
+    a {
+        color: rgb(200, 195, 188);
+        background-color: transparent;
+    }
+
+    a:hover {
+        color: #dee2e6;
+    }
+
+    .content .markdown, .content h1, h1, h2, h3, .header h1.name {
+        color: rgb(200, 195, 188);
+    }
+
+    button {
+        border-radius: 5px;
+        background-color: transparent;
+        color: white;
+        border: solid;
+    }
+}

@@ -15,7 +15,7 @@ Un plus del recorrido es que va cerca del tren, por lo cual si están muy cansad
 
 {{< ref title="Link wikiloc" href="https://es.wikiloc.com/rutas-cicloturismo/vicente-lopez-maschwitz-vicente-lopez-caminos-distintos-39376557" >}}
 
-{{< map title="Recorrido a Tigre" route="/files/2021-07-27-san_isidro-tigre-maschwitz/tigre.out" >}}
+{{< map title="Recorrido a Tigre" route="/files/2021-07-27-san_isidro-tigre-maschwitz/tigre.gpx" >}}
 
 ## Fotos
 

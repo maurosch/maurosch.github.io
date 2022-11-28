@@ -11,11 +11,12 @@
     <p>
         <div id="{{ $randomID }}"></div>
     </p>
-    <p class="caption">{{.Get "title"}}</p>
+    <p class="caption">{{.Get "title"}} (<a href="{{.Get "route"}}" download>Descargar GPX</a>)</p>
 </div>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+<link rel="stylesheet" href="/css/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+<script src="/js/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+<script src="/js/GPXParser.min.js"></script>
 <script>
 (function() {
     var map = L.map('{{ $randomID }}').setView([51.505, -0.09], 13);
@@ -23,9 +24,12 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
     fetch("{{.Get "route"}}")
-        .then(response => response.json())
+        .then(response => response.text())
         .then(data => {
-            var polyline = L.polyline(data, {color: 'red'}).addTo(map);
+            const gpx = new gpxParser();
+            gpx.parse(data);
+            const coordinates = gpx.tracks.map(track => track.points.map(p => [p.lat.toFixed(5), p.lon.toFixed(5)])).flat();
+            const polyline = L.polyline(coordinates, {color: 'red'}).addTo(map);
             map.fitBounds(polyline.getBounds());
     });
 })();
