@@ -1,5 +1,5 @@
 {{ $seed := "foo" }}
-{{ $randomID := delimit (shuffle (split (md5 $seed) "" )) "" }}
+{{ $randomID := print "a" (delimit (shuffle (split (md5 $seed) "" )) "") }}
 
 <style>#{{ $randomID }} { 
     height: 300px; 
