@@ -1,16 +1,16 @@
-<div class="figure" style="text-align:center; width: 100%">
-    <p>
-        <img 
-            style="max-height: 600px; padding-left:10px; padding-right:10px"
-            src="{{.Get "src"}}" 
-            {{if isset .Params "alt"}}
-                alt="{{.Get "alt"}}"
-            {{else}}
-                {{if isset .Params "title"}}
-                    alt="{{.Get "title"}}"
-                {{end}}
+<div class="figure" style="text-align:center; width: 100%; padding-left:50px; padding-right:50px; padding-top:5px; padding-bottom: 5px;">
+    
+    <img 
+        style="max-height: 600px;"
+        src="{{.Get "src"}}" 
+        {{if isset .Params "alt"}}
+            alt="{{.Get "alt"}}"
+        {{else}}
+            {{if isset .Params "title"}}
+                alt="{{.Get "title"}}"
             {{end}}
-        >
-    </p>
+        {{end}}
+    >
+    
     <p class="caption">{{.Get "title"}}</p>
 </div>
