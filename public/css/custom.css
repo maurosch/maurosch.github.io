@@ -9,6 +9,7 @@ a.footnote-ref::after {
 /* Global styles */
 
 body {
+    --scrollbar-width: calc(100vw - 100%);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-feature-settings: "liga", "kern";
     background-color: #fff;

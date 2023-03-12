@@ -1,0 +1,24 @@
+<div id="{{.Get "src"}}" class="figure" style="text-align:center; padding-top:5px; padding-bottom: 5px; position: relative; left:-1000px;">
+    <img 
+        style="width: 100vw; max-width: none;" 
+        src="{{.Get "src"}}" 
+        {{if isset .Params "alt"}}
+            alt="{{.Get "alt"}}"
+        {{else}}
+            {{if isset .Params "title"}}
+                alt="{{.Get "title"}}"
+            {{end}}
+        {{end}}
+    >
+    
+    <p class="caption">{{.Get "title"}}</p>
+</div>
+<script>
+var v = () => {
+    var z = document.getElementById({{.Get "src"}});
+    z.style.left = -z.parentElement.getBoundingClientRect().left + 'px';
+};
+v();
+window.onresize = v
+
+</script>
