@@ -2,6 +2,10 @@
 title: "🚴 Pedaleando por Carlos Keen (45km)"
 date: 2021-08-17T00:00:00-03:00
 draft: False
+tags:
+- Bici
+- Rural
+
 ---
 
 Salimos de Carlos Keen rumbo para Villa Ruiz. Es un camino por ruta poco transitada. Al llegar a Villa Ruiz se toma un camino interno de tierra para terminar en Azcuénaga. 

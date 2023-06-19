@@ -2,6 +2,10 @@
 title: "🚴 Pedaleando desde CABA: San Isidro (30km) / Tigre (43km) / Maschwitz (90km)"
 date: 2021-07-27T00:00:00-03:00
 draft: False
+tags:
+- Bici
+- Ciudad
+
 ---
 
 Tres recorridos juntados en un post porque comparten camino, cada uno de mayor distancia que el anterior y todos salientes desde General Paz y Libertador. Los tres caminos en su mayoría son por bicisenda o caminos con pocos autos pavimentados.

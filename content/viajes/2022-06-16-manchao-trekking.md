@@ -2,6 +2,9 @@
 title: "⛰ Trekking por Catamarca: Cerro Manchao (4550msnm) - 4 días"
 date: 2022-06-16T00:00:00-03:00
 draft: False
+tags:
+- Trekking
+
 ---
 
 Un trekking que comienza a una hora en auto de Catamarca capital, con unas vistas increíbles pero de una dificultad importante. Con una altura de 4550 metros se impone el cerro Manchao, cuyo nombre significa "lugar de miedo".

@@ -2,6 +2,9 @@
 title: "⛰ Trekking Torres del Paine - Circuito O - 8 días"
 date: 2023-02-14T00:00:00-03:00
 draft: False
+tags:
+- Trekking
+
 ---
 
 El circuito dura 8 días desde que llegas hasta que te vas. Torres del Paine es un parque nacional en la región de Magallanes de Chile. Se encuentra muy cerca del Calafate Argentina.

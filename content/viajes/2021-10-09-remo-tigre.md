@@ -2,6 +2,9 @@
 title: "🚣 Remando en Tigre: Río Rama (20km)"
 date: 2021-10-09T00:00:00-03:00
 draft: False
+tags:
+- Finde
+
 ---
 
 Saliendo de Tigre en remo saliendo por el río Lujan y luego doblando por el Carapachay por aproximadamente 10km se llega al río rama donde ibamos a parar para comer en un almacén. Nosotros paramos en un restaurante alemán que nos encontramos llamado Alpenhause. Luego volvimos por el río Sarmiento.

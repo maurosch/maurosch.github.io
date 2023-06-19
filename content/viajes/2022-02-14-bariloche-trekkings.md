@@ -2,6 +2,9 @@
 title: "⛰ Trekkings por Bariloche: 5 refugios de montaña"
 date: 2022-02-14T00:00:00-03:00
 draft: False
+tags:
+- Trekking
+
 ---
 
 Un lindo viaje para hacer varios trekkings travesía. Fue nuestra primera aventura de trekking travesía. Hicimos 3 trekkings de una noche y 1 trekking de 2 noches, en total con descansos entre cada trekking estuvimos 14 días en bariloche. Teníamos una casa reservada en la ciudad para volver después de cada trekking.
