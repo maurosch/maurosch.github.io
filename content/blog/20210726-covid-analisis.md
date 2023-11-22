@@ -1,7 +1,6 @@
 ---
-title: "Análisis casos covid CABA 2021"
+title: "📕 Análisis casos covid CABA 2021"
 date: 2021-07-26T00:00:00-03:00
-draft: False
 ---
 
 Utilizando los datos públicos de la ciudad sobre los casos de covid[^1], me decidí hacer un análisis que no estaba contemplado en los gráficos del diario la nación[^2].

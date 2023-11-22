@@ -1,7 +1,6 @@
 ---
-title: "Qué conviene cuando hay una inflación tan alta?"
+title: "📕 Qué conviene cuando hay una inflación tan alta?"
 date: 2023-02-19T10:20:09-03:00
-draft: false
 ---
 
 Hoy en día con la inflación anual gigante que tenemos (> 100%) siempre hay que ver cuando nos conviene pagar con cuotas, cuando nos conviene transferir directo o cuando pagar sin cuotas.

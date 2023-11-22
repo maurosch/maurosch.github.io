@@ -1,7 +1,9 @@
 ---
 title: "🐯 Caminando por reserva Monte Blanco Tigre"
 date: 2023-11-18T00:00:00-03:00
-draft: False
+tags:
+- Viajes
+- Trekking
 
 ---
 

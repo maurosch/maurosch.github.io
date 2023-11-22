@@ -1,7 +1,6 @@
 ---
-title: "Cada vez más servicios de streaming"
+title: "📕 Cada vez más servicios de streaming"
 date: 2021-07-08T11:47:09-03:00
-draft: False
 ---
 
 Cada vez nos encontramos con más servicios de streaming de videos.

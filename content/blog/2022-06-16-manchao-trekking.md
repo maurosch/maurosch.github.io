@@ -1,8 +1,8 @@
 ---
 title: "⛰ Trekking por Catamarca: Cerro Manchao (4550msnm, 4 días)"
 date: 2022-06-16T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Trekking
 
 ---

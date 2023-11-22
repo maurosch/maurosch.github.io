@@ -1,6 +1,5 @@
 ---
-title: "Películas con pocos escenarios"
-description: "Someone's blog"
+title: "📕 Películas con pocos escenarios"
 date: 2021-06-28T11:47:09-03:00
 ---
 

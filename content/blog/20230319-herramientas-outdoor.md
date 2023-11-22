@@ -1,7 +1,6 @@
 ---
-title: "Aplicaciones para actividades outdoor o viajar"
+title: "📕 Aplicaciones para actividades outdoor o viajar"
 date: 2023-03-19T10:20:09-03:00
-draft: false
 ---
 
 ## Wikiloc

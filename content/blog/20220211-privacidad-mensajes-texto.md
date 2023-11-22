@@ -1,7 +1,6 @@
 ---
-title: "Análisis: ¿Qué tan privados son los mensajes de Whatsapp/Telegram/Signal?"
+title: "📕 Análisis: ¿Qué tan privados son los mensajes de Whatsapp/Telegram/Signal?"
 date: 2022-02-11T15:20:09-03:00
-draft: false
 ---
 
 Primero hablemos de encriptación de mensajes. Existen 2 tipos de encriptaciones: 

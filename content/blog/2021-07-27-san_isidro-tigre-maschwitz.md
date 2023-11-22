@@ -3,6 +3,7 @@ title: "🚴 Pedaleando desde CABA: San Isidro (30km) / Tigre (43km) / Maschwitz
 date: 2021-07-27T00:00:00-03:00
 draft: False
 tags:
+- Viajes
 - Bici
 - Ciudad
 

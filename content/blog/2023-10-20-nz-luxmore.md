@@ -1,8 +1,8 @@
 ---
 title: "⛰ Trekking por Nueva Zelanda: Luxmore Hut"
 date: 2023-10-20T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Trekking
 
 ---

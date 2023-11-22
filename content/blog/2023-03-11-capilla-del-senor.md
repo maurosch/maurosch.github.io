@@ -1,8 +1,8 @@
 ---
 title: "🚴 Pedaleando por Capilla del Señor (53km)"
 date: 2023-03-11T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Bici
 - Rural
 

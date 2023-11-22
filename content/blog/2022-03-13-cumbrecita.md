@@ -1,8 +1,8 @@
 ---
 title: "🚴 Pedaleando desde Villa General Belgrano a la Cumbrecita (64km)"
 date: 2022-03-13T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Bici
 - Rural
 

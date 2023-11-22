@@ -1,8 +1,8 @@
 ---
 title: "🧗 Escalando en sierra de los difuntos"
 date: 2023-06-19T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Escalada
 - Rural
 

@@ -1,7 +1,6 @@
 ---
-title: "50 años en ciudades"
+title: "📕 50 años en ciudades"
 date: 2021-07-18T11:47:09-03:00
-draft: False
 ---
 
 Inspirado por un tweet[^3], me decidí buscar como cambiaron las ciudades en tan solo 50 años:

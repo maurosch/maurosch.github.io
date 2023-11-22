@@ -1,8 +1,8 @@
 ---
 title: "🚴 Pedaleando desde Mercedes a Espora por los túneles de vegetales (40km)"
 date: 2023-09-16T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Bici
 - Rural
 

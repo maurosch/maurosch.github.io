@@ -1,8 +1,8 @@
 ---
 title: "🚣 Remando en Tigre: Río Rama (20km)"
 date: 2021-10-09T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Finde
 
 ---

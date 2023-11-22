@@ -1,8 +1,8 @@
 ---
 title: "🚣 Finde largo Tigre"
 date: 2023-04-29T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Finde
 
 ---

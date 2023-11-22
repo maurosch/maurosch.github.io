@@ -1,8 +1,8 @@
 ---
 title: "🚴 Pedaleando desde Mercedes a Suipacha (60km)"
 date: 2023-08-16T00:00:00-03:00
-draft: False
 tags:
+- Viajes
 - Bici
 - Rural
 

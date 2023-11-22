@@ -1,7 +1,6 @@
 ---
-title: "Tiempo en pantalla"
+title: "📕 Tiempo en pantalla"
 date: 2021-08-16T00:00:00-03:00
-draft: False
 ---
 
 Leyendo el libro *El fin de la infancia* de Arthur Clarke (un libro escrito en 1953), me encuentro que en libro describen a la civilización futurista donde las personas pasan hasta 3 horas por día viendo una pantalla. Se retrataba como algo exagerado.
