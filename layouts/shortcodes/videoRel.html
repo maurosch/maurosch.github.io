@@ -1,0 +1,8 @@
+<div class="figure" style="text-align:center; width: 100%; padding-left:50px; padding-right:50px; padding-top:5px; padding-bottom: 5px;">
+    
+    <video width="90%" controls>
+        <source src="{{ printf "%s%s%s" "/images" .Page.RelPermalink (.Get "src") }}" type="video/mp4">
+    </video> 
+    
+    <p class="caption">{{.Get "title"}}</p>
+</div>

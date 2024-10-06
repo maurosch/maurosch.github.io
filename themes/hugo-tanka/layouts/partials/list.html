@@ -4,6 +4,18 @@
         <h2 class="meta-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <div class="meta-date">
             <time>{{ .Date.Format (.Site.Params.dateform | default "2006/01/02") }}</time>
+            {{ with .Params.tags }}
+            <ul class="list-unstyled d-inline">
+                {{ range . }}
+                <li class="d-inline middot">
+                    <a 
+                        href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"
+                        style="text-decoration: none;">{{ . }}</a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
         </div>
     </li>
     {{ end }}

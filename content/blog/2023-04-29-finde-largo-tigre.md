@@ -1,5 +1,5 @@
 ---
-title: "🚣 Finde largo Tigre"
+title: "🚣 Casa temporal por el finde en Tigre"
 date: 2023-04-29T00:00:00-03:00
 tags:
 - Viajes

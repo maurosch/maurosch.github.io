@@ -2,7 +2,7 @@
     
     <img 
         style="max-height: 450px;"
-        src="{{ printf "%s%s%s" "/images" .Page.RelPermalink (.Get "src") }}" 
+        src="/images{{ .Page.RelPermalink }}{{ .Get "src" }}" 
         {{if isset .Params "alt"}}
             alt="{{.Get "alt"}}"
         {{else}}
