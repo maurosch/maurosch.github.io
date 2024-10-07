@@ -12,8 +12,6 @@ hasCJKLanguage = false
 pygmentsstyle = "vs"
 pygmentscodefences = true
 
-googleAnalytics = "G-2J0NNJTX3V"
-
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [params]
