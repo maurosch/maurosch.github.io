@@ -7,7 +7,7 @@ Paisaje muy lindo del camino, y en Suipacha paramos a comer en Don Vicente (espe
 
 
 
-&lt;style>#a4c86fd25ad4e514cdc884ccbcacdffeb { 
+&lt;style>#ac84cdcbf2fadb84d1ad4f5ec4eccc865 { 
  height: 400px; 
  margin-right: 24px;
  margin-left: 24px;
@@ -15,7 +15,7 @@ Paisaje muy lindo del camino, y en Suipacha paramos a comer en Don Vicente (espe
 
 &lt;div class="figure" style="text-align:center; width: 100%;">
  &lt;p>
- &lt;div id="a4c86fd25ad4e514cdc884ccbcacdffeb">&lt;/div>
+ &lt;div id="ac84cdcbf2fadb84d1ad4f5ec4eccc865">&lt;/div>
  &lt;/p>
  &lt;p class="caption">Recorrido (&lt;a href="https://maurosch.github.io/files/2023-08-16-mercedes-suipacha/mercedes-suipacha.gpx" download>Descargar GPX&lt;/a>)&lt;/p>
 &lt;/div>
@@ -25,7 +25,7 @@ Paisaje muy lindo del camino, y en Suipacha paramos a comer en Don Vicente (espe
 &lt;script src="https://maurosch.github.io/js/GPXParser.min.js">&lt;/script>
 &lt;script>
 (function() {
- var map = L.map('a4c86fd25ad4e514cdc884ccbcacdffeb').setView([51.505, -0.09], 13);
+ var map = L.map('ac84cdcbf2fadb84d1ad4f5ec4eccc865').setView([51.505, -0.09], 13);
  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
  attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright">OpenStreetMap&lt;/a> contributors'
  }).addTo(map);
