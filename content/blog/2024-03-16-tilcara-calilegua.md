@@ -1,5 +1,5 @@
 ---
-title: "⛰ Trekking por Jujuy, de Tilcara de Calilegua"
+title: "⛰ Trekking por Jujuy, de Tilcara a Calilegua"
 date: 2024-03-16T00:00:00-03:00
 tags:
 - Viajes

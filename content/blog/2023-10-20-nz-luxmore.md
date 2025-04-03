@@ -14,8 +14,8 @@ Cerca del refugio se encuentran unas cuevas que se pueden entrar muy interesante
 ## Fotos
 
 {{< imgRel src="20231019_180359.jpg" >}}
-{{< imgRel src="IMG_20231020_100126070.jpg" >}}
-{{< imgRel src="20231020_100009.jpg" >}}
+{{< imgRel src="IMG_20231020_100126070.jpg" title="Entrada a cueva" >}}
+{{< imgRel src="20231020_100009.jpg" title="Inicio de cueva. No fuimos mucho más profundo." >}}
 {{< imgRel src="PXL_20231019_044734243.jpg" >}}
 {{< imgRel src="PXL_20231019_051521797.jpg" >}}
 {{< imgRel src="20231020_102820.jpg" >}}
