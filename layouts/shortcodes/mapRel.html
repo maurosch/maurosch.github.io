@@ -1,38 +1,115 @@
-{{ $seed := "foo" }}
-{{ $randomID := print "a" (delimit (shuffle (split (md5 $seed) "" )) "") }}
-{{ $routeAbs := print "/files" .Page.RelPermalink (.Get "route") }}
+{{/*
+  Usage: {{< gpx route="route.gpx" title="Mi recorrido" >}}
+  Self-contained: loads Leaflet + GPXParser on its own, once per page,
+  even if the shortcode is used several times.
+*/}}
+{{ $id := printf "gpx-map-%d" .Ordinal }}
+{{ $route := print "/files" .Page.RelPermalink (.Get "route") }}
 
-<style>#{{ $randomID }} { 
-    height: 400px; 
-    margin-right: 24px;
-    margin-left: 24px;
-}</style>
+<link rel="stylesheet" href="/css/leaflet.css">
+<style>
+  .gpx-figure { text-align: center; width: 100%; }
+  .gpx-map { height: 400px; margin: 0 24px; }
+</style>
 
-<div class="figure" style="text-align:center; width: 100%;">
-    <p>
-        <div id="{{ $randomID }}"></div>
-    </p>
-    <p class="caption">{{.Get "title"}} (<a href="{{ $routeAbs }}" download>Descargar GPX</a>)</p>
-</div>
+<figure class="figure gpx-figure">
+  <div id="{{ $id }}" class="gpx-map"></div>
+  <figcaption class="caption">
+    {{ .Get "title" }} (<a href="{{ $route }}" download>Descargar GPX</a>)
+  </figcaption>
+</figure>
 
-<link rel="stylesheet" href="/css/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
-<script src="/js/leaflet.js"></script>
-<script src="/js/GPXParser.min.js"></script>
 <script>
-(function() {
-    var map = L.map('{{ $randomID }}').setView([51.505, -0.09], 13);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-    
-    fetch("{{ $routeAbs }}")
-        .then(response => response.text())
-        .then(data => {
-            const gpx = new gpxParser();
-            gpx.parse(data);
-            const coordinates = gpx.tracks.map(track => track.points.map(p => [p.lat.toFixed(5), p.lon.toFixed(5)])).flat();
-            const polyline = L.polyline(coordinates, {color: 'red'}).addTo(map);
-            map.fitBounds(polyline.getBounds());
+(function () {
+  // Load dependencies once per page, shared by every map on it.
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = resolve;
+      s.onerror = () => reject(new Error(`Failed to load ${src}`));
+      document.head.append(s);
     });
+  }
+  window.gpxMapDeps = window.gpxMapDeps || Promise.all([
+    loadScript('/js/leaflet.js'),
+    loadScript('/js/GPXParser.min.js')
+  ]);
+
+  const el = document.getElementById({{ $id }});
+  const route = {{ $route }};
+
+  function waypointPopup(w) {
+    const popup = document.createElement('div');
+    if (w.name) {
+      const b = document.createElement('strong');
+      b.textContent = w.name;
+      popup.append(b);
+    }
+    const desc = w.desc || w.cmt;
+    if (desc) {
+      const p = document.createElement('p');
+      p.textContent = desc;
+      popup.append(p);
+    }
+    if (w.ele != null) {
+      const e = document.createElement('small');
+      e.textContent = `${Math.round(w.ele)} m`;
+      popup.append(e);
+    }
+    return popup.childNodes.length ? popup : null;
+  }
+
+  function showError(err, map) {
+    console.error('gpx map:', err);
+    if (map) map.remove();
+    el.textContent = 'No se pudo cargar el recorrido.';
+  }
+
+  Promise.all([window.gpxMapDeps, fetch(route)])
+    .then(([, r]) => {
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+      return r.text();
+    })
+    .then(text => {
+      const map = L.map(el, { scrollWheelZoom: false });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      try {
+        const gpx = new gpxParser();
+        gpx.parse(text);
+
+        const layers = L.featureGroup().addTo(map);
+
+        // Tracks and routes
+        const lines = [...gpx.tracks, ...gpx.routes]
+          .map(t => t.points.map(p => [p.lat, p.lon]))
+          .filter(l => l.length > 0);
+        if (lines.length) L.polyline(lines, { color: 'red' }).addTo(layers);
+
+        // Waypoints / points of interest
+        for (const w of gpx.waypoints) {
+          const marker = L.circleMarker([w.lat, w.lon], {
+            radius: 7,
+            color: '#fff',
+            weight: 2,
+            fillColor: '#1e66f5',
+            fillOpacity: 1
+          }).addTo(layers);
+          const popup = waypointPopup(w);
+          if (popup) marker.bindPopup(popup);
+          if (w.name) marker.bindTooltip(w.name);
+        }
+
+        if (!layers.getLayers().length) throw new Error('GPX has no tracks or waypoints');
+        map.fitBounds(layers.getBounds(), { padding: [20, 20], maxZoom: 16 });
+      } catch (err) {
+        showError(err, map);
+      }
+    })
+    .catch(err => showError(err));
 })();
 </script>
