@@ -8,11 +8,24 @@
 
 <link rel="stylesheet" href="/css/leaflet.css">
 <style>
-  .gpx-figure { text-align: center; width: 100%; }
-  .gpx-map { height: 400px; margin: 0 24px; }
+  /* Full content width, overriding browser/theme figure styles
+     (default 40px side margins, inline-block/table/max-width from themes) */
+  figure.gpx-figure {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin: 1em 0;
+    padding: 0;
+    text-align: center;
+    background: transparent !important;
+    border: 0;
+    box-shadow: none;
+  }
+  .gpx-figure figcaption { background: transparent; }
+  .gpx-figure .gpx-map { display: block; width: 100%; height: 400px; }
 </style>
 
-<figure class="figure gpx-figure">
+<figure class="gpx-figure">
   <div id="{{ $id }}" class="gpx-map"></div>
   <figcaption class="caption">
     {{ .Get "title" }} (<a href="{{ $route }}" download>Descargar GPX</a>)
@@ -75,6 +88,10 @@
       const map = L.map(el, { scrollWheelZoom: false });
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
+        // OSM requires a Referer; this overrides a page-wide "no-referrer"
+        // policy (some themes set one) just for the tile requests.
+        // Needs Leaflet 1.9+.
+        referrerPolicy: 'strict-origin-when-cross-origin',
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
