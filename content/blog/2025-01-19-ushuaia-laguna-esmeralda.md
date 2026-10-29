@@ -1,5 +1,5 @@
 ---
-title: "⛰ Trekking por Ushuaia, laguna esmeralda"
+title: "⛰ Trekking por Ushuaia, Laguna Esmeralda"
 date: 2025-01-19T00:00:00-03:00
 tags:
 - Viajes

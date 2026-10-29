@@ -1,5 +1,5 @@
 ---
-title: "🧗 Escalando en sierra de los difuntos"
+title: "🧗 Escalando en Sierra de los Difuntos"
 date: 2023-06-19T00:00:00-03:00
 tags:
 - Viajes
